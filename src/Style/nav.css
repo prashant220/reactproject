@@ -1,0 +1,84 @@
+nav {
+    float: right;
+    text-decoration: none;
+  }
+  nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+  }
+  nav ul li {
+    float: left;
+    position: relative;
+    text-decoration: none;
+    padding: 10px;
+    font-size: 20px;
+  
+  }
+
+  .nav-bar {
+    position:fixed;
+    top:0;
+    z-index: 1;
+    text-decoration: none;
+    width:100%;
+    height:70px;
+    padding-top: -2%;
+    color:wheat;
+    background-color: #100449;
+  }
+
+  .brand {
+    position: absolute;
+    padding-left: 20px;
+    float: left;
+    font-size: 25px;
+    padding-left: 10px;
+    text-decoration: none;
+    top: 10px;
+  
+  }
+
+  .nav-container {
+    max-width: 1000px;
+    margin: 0 auto;
+    text-decoration: none;
+    
+  }
+
+  .section1{
+    margin:0px;
+  }
+
+  .top_header{
+    color: white;
+    margin-left: 20%;
+    margin-right: 17%;
+    height: 25px;
+    line-height: 25px;
+    padding-bottom: 33%;
+  
+  }
+  
+  
+  .right{
+    float: right;
+    margin-right: 5%;
+  }
+  
+  .form{
+
+    position: relative;
+    height: 65px;
+    overflow: hidden;
+    margin-top: 1%;
+  }
+  
+  .bottom{
+    background-color: #100449;
+    color: white;
+    height: 40px;
+  }
+
+  
