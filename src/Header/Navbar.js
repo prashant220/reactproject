@@ -47,11 +47,12 @@ class Navbar extends Component {
     <Layout style={{background: 'url(http://www.getmdl.io/assets/demos/transparent.jpg) center / cover'}}>
         <Header transparent title="INNOVEGIC STUDIO" style={{color: 'white'}}>
             <Navigation>
+            <Link to="/" ><a href="#"style={{color:"white"}}>Home</a></Link>
                 <Link to="/about" ><a href="#"style={{color:"white"}}>About us</a></Link>
                 <Link to="/service"><a href="#"style={{color:"white"}}>Our Service</a></Link>
                <Link to="/team"> <a href="#"style={{color:"white"}}>Our team</a></Link>
                <Link to="/contact"> <a href="#"style={{color:"white"}}>Contact us</a></Link>
-            </Navigation>
+              </Navigation>
         </Header>
         <Drawer title="Title">
             <Navigation>

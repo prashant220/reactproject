@@ -7,6 +7,7 @@ function Services() {
 
     },[])
     const[items,setItems]=useState([]);
+    const text="hello";
     const fetchItems=async()=>{
         const data=await fetch('https://bakesaleforgood.com/api/deals')
 
@@ -14,9 +15,11 @@ function Services() {
         console.log(items);
         setItems(items);
     }
-    return(
-      
-      <div style={{display:"flex",flexWrap:'wrap',justifyContent:'space-around',position:"sticky"}}>
+       return(
+     
+        
+      <div style={{display:"flex",flexWrap:'wrap',justifyContent:'space-around',position:"sticky",marginTop:"4%"}}>
+        
       {items.map(item=>(
      <Card shadow={0} style={{width: '512px', margin: 'auto'}}>
      <CardTitle style={{color: '#fff', height: '176px', background: 'url(http://www.getmdl.io/assets/demos/welcome_card.jpg) center / cover'}}>{item.title}</CardTitle>

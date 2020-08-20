@@ -22,10 +22,14 @@ class Nav extends Component {
                     <Navbar/>
              <Switch>
                     <Route path="/" exact component={Home}/>
-            <Route path="/story" component={Story}/>
+            <Route path="/about" component={Story}/>
             <Route path="/team" component={Ourteam}/>
-            <Route path="/service"  component={Services} />
-           
+            <div > 
+               
+                 <Route path="/service"  component={Services} />
+                 </div>
+          
+            <Route path="/contact"  component={Contact} />           
             
                     </Switch>
                 </div>
