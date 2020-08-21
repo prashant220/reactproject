@@ -17,7 +17,9 @@ function ServiceItem() {
     }
    
   return (
-    <div className="App">
+    
+    <div >
+      
       {items.map(item=>(
     <h1 key={item.key}>
         {item.title}

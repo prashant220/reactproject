@@ -10,6 +10,7 @@ import ServiceItem from './ServiceItem';
 import Home from './Home';
 import {BrowserRouter as Router,Switch,Route} from 'react-router-dom';
 import FooterPage from './FooterPage';
+import { HashLink as Link } from 'react-router-hash-link';
 
 
 
@@ -20,20 +21,22 @@ class Nav extends Component {
             <Router>
                 <div>
                     <Navbar/>
-             <Switch>
+                    <Switch>
+         
                     <Route path="/" exact component={Home}/>
             <Route path="/about" component={Story}/>
-            <Route path="/team" component={Ourteam}/>
+            <Route path="/team"  component={Ourteam}/>
             <div > 
                
-                 <Route path="/service"  component={Services} />
+                 <Route path="/service"   component={Services} />
                  </div>
+            <Route path="/contact"  component={Contact} />
+           
+            </Switch>
+            <FooterPage/>
           
-            <Route path="/contact"  component={Contact} />           
-            
-                    </Switch>
                 </div>
-                <FooterPage/>
+             
             </Router>
             
           );

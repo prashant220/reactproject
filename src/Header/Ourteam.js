@@ -1,65 +1,12 @@
-// import React, { Component } from 'react';
-// import{Col,Row,Container,Carousel}from 'react-bootstrap';
 
-// class Ourteam extends Component {
-  
-//     render(){
-//         return (
-//             <div  className="jumbotron jumbotron-fluid" style={{ backgroundImage: `url(${require("../images/back.png")})` 
-//             ,backgroundRepeat:"no-repeat",backgroundSize:"cover",height:"100%",marginTop:"6%"}}>
-
-
-//            <Container>
-//                  <Row>
-//                       <Col>
-//                          <div>
-//                        <h1>Our team</h1>
-//                        <p>
-//                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui official
-//                        </p>  
-//                    </div>
-//                       </Col>
-
-//               <Col>
-//               <Carousel>
-                
-//   <Carousel.Item>
-//     <img
-//       className="d-block w-100"
-//       src={require('../images/face_logo.png')} style={{height:"219px"}} 
-//       alt="First slide"
-    
-//     />
-    
-//   </Carousel.Item>
-
-//   <Carousel.Item>
-//     <img
-//       className="d-block w-100"
-//       src={require('../images/info.png')} style={{height:"219px"}} 
-//       alt="First slide"
-    
-//     />
-//   </Carousel.Item>
-// </Carousel>
-              
-//               </Col>
-//                </Row>
-//          </Container>
-//             </div>
-//           );
-//     } 
-// }
-
-// export default Ourteam;
 import React from "react";
 import {  MDBRow, MDBCol, MDBCard, MDBCardBody, MDBIcon } from "mdbreact";
 
 const OurTeam = () => {
   return (
-    <MDBCard className="my-5 px-5 pb-5 text-center">
-        <MDBCardBody>
-          <h2 className="h1-responsive font-weight-bold my-5">
+    <MDBCard  className="my-5 px-5 pb-5 text-center">
+        <MDBCardBody >
+          <h2 id="team" className="h1-responsive font-weight-bold my-5">
             Our amazing team
           </h2>
           <p className="grey-text w-responsive mx-auto mb-5">

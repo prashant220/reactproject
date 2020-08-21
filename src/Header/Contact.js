@@ -7,7 +7,7 @@ import {Form,Button} from 'react-bootstrap';
 class Contact extends Component {
    render(){
        return(
-        <div  className="jumbotron jumbotron-fluid" style={{marginTop:"6%",fontStyle:"oblique"}}>
+        <div id="contact"  className="jumbotron jumbotron-fluid" style={{marginTop:"6%",fontStyle:"oblique"}}>
 
 
 <center><b>Got a question? We'd love to hare from you. Send us a message and we'll 

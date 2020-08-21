@@ -9,7 +9,7 @@ function Services() {
     const[items,setItems]=useState([]);
     const text="hello";
     const fetchItems=async()=>{
-        const data=await fetch('https://bakesaleforgood.com/api/deals')
+        const data=await fetch('https://5f3eac0813a9640016a68fea.mockapi.io/api/v1/books')
 
         const items=await data.json();
         console.log(items);
@@ -18,13 +18,13 @@ function Services() {
        return(
      
         
-      <div style={{display:"flex",flexWrap:'wrap',justifyContent:'space-around',position:"sticky",marginTop:"4%"}}>
+      <div id="service" style={{display:"flex",flexWrap:'wrap',justifyContent:'space-around',position:"sticky",marginTop:"4%"}}>
         
       {items.map(item=>(
      <Card shadow={0} style={{width: '512px', margin: 'auto'}}>
-     <CardTitle style={{color: '#fff', height: '176px', background: 'url(http://www.getmdl.io/assets/demos/welcome_card.jpg) center / cover'}}>{item.title}</CardTitle>
+     <CardTitle style={{color: '#fff', height: '176px', background: 'url(https://wsiretail.com/wp-content/uploads/2019/05/Mobile-application-725x550.jpg) center / cover'}}>{item.name}</CardTitle>
      <CardText>
-         {item.price}
+         {item.author}
      </CardText>
      <CardActions border>
          <Button colored>Get Started</Button>
